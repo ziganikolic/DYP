@@ -1,5 +1,13 @@
 # 🚀 Deployment Guide - Laravel Cloud
 
+> **⚠️ Important:** Before deploying, you need to generate proper `composer.lock` and `package-lock.json` files.
+>
+> **Quick Start:** Run `./prepare-deployment.sh` (requires PHP 8.2+ and Composer)
+>
+> **Having Issues?** See [DEPLOYMENT_TROUBLESHOOTING.md](DEPLOYMENT_TROUBLESHOOTING.md)
+
+---
+
 ## Priprava aplikacije
 
 ### 1. Lokalni razvoj
