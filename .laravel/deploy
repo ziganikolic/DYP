@@ -11,6 +11,13 @@ mkdir -p storage/framework/cache/data
 mkdir -p storage/framework/sessions
 mkdir -p storage/framework/views
 mkdir -p storage/logs
+mkdir -p storage/.laravel/cache
+
+# Create .laravel directory and symlink cache to storage
+mkdir -p .laravel
+rm -rf .laravel/cache
+ln -sf ../storage/.laravel/cache .laravel/cache
+
 chmod -R 775 storage bootstrap/cache
 
 # Install npm dependencies
