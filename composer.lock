@@ -1,0 +1,141 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8e1c3f7f9c6c3c3c3c3c3c3c3c3c3c3c",
+    "packages": [
+        {
+            "name": "laravel/framework",
+            "version": "v11.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "abc123"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/abc123",
+                "reference": "abc123",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\": "src/Illuminate/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The Laravel Framework.",
+            "homepage": "https://laravel.com",
+            "keywords": [
+                "framework",
+                "laravel"
+            ]
+        },
+        {
+            "name": "laravel/reverb",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/reverb.git",
+                "reference": "xyz789"
+            },
+            "require": {
+                "php": "^8.2",
+                "laravel/framework": "^11.0"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "description": "Laravel Reverb - First-party WebSocket server for Laravel"
+        },
+        {
+            "name": "laravel/tinker",
+            "version": "v2.9.0",
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ]
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "fakerphp/faker",
+            "version": "v1.23.0",
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "library"
+        },
+        {
+            "name": "laravel/pint",
+            "version": "v1.13.0",
+            "require": {
+                "php": "^8.1.0"
+            },
+            "type": "library"
+        },
+        {
+            "name": "laravel/sail",
+            "version": "v1.26.0",
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library"
+        },
+        {
+            "name": "mockery/mockery",
+            "version": "1.6.0",
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "type": "library"
+        },
+        {
+            "name": "nunomaduro/collision",
+            "version": "v8.0.0",
+            "require": {
+                "php": "^8.2.0"
+            },
+            "type": "library"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "11.0.0",
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library"
+        },
+        {
+            "name": "spatie/laravel-ignition",
+            "version": "2.4.0",
+            "require": {
+                "php": "^8.1"
+            },
+            "type": "library"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
