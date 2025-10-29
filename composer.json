@@ -62,6 +62,9 @@
             "@php artisan config:clear --ansi",
             "@php artisan test"
         ],
+        "pre-autoload-dump": [
+            "@php -r \"@mkdir('storage/.laravel/cache', 0775, true); @mkdir('.laravel', 0775, true); @symlink('../storage/.laravel/cache', '.laravel/cache');\""
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
